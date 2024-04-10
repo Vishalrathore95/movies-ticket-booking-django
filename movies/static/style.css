@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+header a:first-child {
+    margin-right: auto; /* Pushes the arrow to the right */
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Arrow icon styles */
+.fa-solid.fa-arrow-right:before {
+    content: "\2192"; 
+    margin-left: 5px; 
+}
+
+/* Optionally, you can style the arrow further */
+.fa-solid.fa-arrow-right:before {
+    font-size: 16px; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
+  }
+  
+  .admin,
+  .user {
+    margin: 0 10px; 
+  }
+  
+  .fa-solid {
+    font-size: 24px; 
+  }
+  .admin i{
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 90px;
+  }
+  .user i{
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 90px;
+  }
+
+  .admin h3{
+    text-align: center;
+
+  }
+  .user h3{
+    text-align: center;
+
+  }
